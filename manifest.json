@@ -1,6 +1,6 @@
 {
     "name": "donthelpme",
-    "description": "",
+    "description": "Removes the help button in Mimir that overlaps the test cases view.",
     "manifest_version": 2,
     "version": "0.0.1",
     "homepage_url": "https://m1ke.co",
@@ -10,7 +10,7 @@
     "content_scripts": [
         {
             "matches": ["*://class.mimir.io/*"],
-            "js": ["cheggify.js"]
+            "js": ["donthelpme.js"]
         }
     ],
     "browser_specific_settings": {

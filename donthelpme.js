@@ -5,4 +5,4 @@ setTimeout(() => {
     }
 
     help.remove();
-}, 1500);
+}, 500);
