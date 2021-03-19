@@ -1,0 +1,21 @@
+{
+    "name": "donthelpme",
+    "description": "",
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "homepage_url": "https://m1ke.co",
+    "icons": {
+        "48": "icons/donthelpme.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://class.mimir.io/*"],
+            "js": ["cheggify.js"]
+        }
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "donthelpme@m1ke.co"
+        }
+    }
+}

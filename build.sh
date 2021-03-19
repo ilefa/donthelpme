@@ -1,0 +1,1 @@
+web-ext build -a ./dist -o -i .gitignore build.sh
