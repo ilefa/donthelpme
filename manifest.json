@@ -9,7 +9,11 @@
     },
     "content_scripts": [
         {
-            "matches": ["*://class.mimir.io/*"],
+            "matches": [
+                "*://ide.mimir.io/*",
+                "*://*.ide.mimir.io/*",
+                "*://class.mimir.io/*"
+            ],
             "js": ["donthelpme.js"]
         }
     ],
